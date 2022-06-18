@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <title>Vite App</title>
-    <script type="module" crossorigin src="/assets/index.3f79b66e.js"></script>
-    <link rel="stylesheet" href="/assets/index.1f3b207f.css">
+    <script type="module" crossorigin src="/assets/index.007981b9.js"></script>
+    <link rel="stylesheet" href="/assets/index.a01ba6cb.css">
   </head>
   <body>
     <section class="portadaImg">
@@ -33,15 +33,15 @@
     </section>
     <div class="contenedor">
         <h1 id="titulo">Bienvenidos a la mejor tienda de juegos Digitales</h1>
-        
-        <div class="buscadorPrimigenio">
-            <h3>Buscador Por Valor de Precio menor a Mayor</h3>
-            <div><lavel>Menor</lavel><input type="text" id ="inputValorBuscarMenor"/>
-            <lavel>Mayor</lavel><input type="text" id ="inputValorBuscarMayor"/></div>
-            <button type="submit" id='botonBuscar'  class="centrar boton">Buscar</button>
-        </div>
-        <div class="contenedorJuegos" id ="contenedorJuegos">
-
+        <div id="buscadorYjuego">
+            <div class="buscadorPrimigenio">
+                <h3>Filtro</h3>
+                <div class="radio-filter"></div>
+                <div class="Buscador-Precio"><lavel>Menor</lavel><input type="text" class="input-text" id ="inputValorBuscarMenor"/>
+                <lavel>Mayor</lavel><input type="text" class="input-text" id ="inputValorBuscarMayor"/>
+                <button type="submit" id='botonBuscar'  class="centrar boton">Buscar</button></div>
+            </div>
+            <div class="contenedorJuegos" id ="contenedorJuegos"></div>
         </div>
         <br>
         <button type="submit" id='botonComprar' class="centrar boton">Comprar</button>
